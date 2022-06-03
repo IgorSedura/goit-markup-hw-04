@@ -144,11 +144,23 @@ body {
 
 /*-------------------------HERO------------------- */
 
-.hero {
-    text-align: center;
+.hero-bacgraund {
     background: #2F303A;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.hero {
+    text-align: center;
     
 }
 
@@ -197,8 +209,30 @@ body {
 }
  
  /*-------------------------ASIDE------------------- */
+.aside-picture-list {
 
- .aside {
+    display: flex;
+    list-style: none;
+    
+}
+
+.aside-picture-item {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    
+}
+
+.aside-picture-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.aside-picture-item {
+    padding: 25px 102px;
+}
+
+.aside {
      padding-top: 94px;
      padding-bottom: 94px;
      
