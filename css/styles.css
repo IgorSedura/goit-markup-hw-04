@@ -93,6 +93,7 @@ body {
 .nav-contacts {
     display: flex;
     margin-left: auto;
+    
 } 
 
 .header .nav {
@@ -116,7 +117,21 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: var(--main-text-color);
+    
  }
+
+ .nav-icon {
+     margin-right: 10px;
+     cursor: pointer;
+     
+ }
+
+ .logo {
+     padding-top: 25px;
+     padding-bottom: 25px;
+     margin-right: 93px;
+ }
+
  .nav-link:hover,
  .nav-link:focus,
  .nav-tel:hover,
@@ -124,13 +139,9 @@ body {
  .nav-mail:hover,
  .nav-mail:focus {
     color: var(--accent-color);
+ 
  }
 
-   .logo {
-     padding-top: 25px;
-     padding-bottom: 25px;
-     margin-right: 93px;
- }
  .nav-item:not(:last-child) {
      margin-right: 50px;
 
@@ -141,6 +152,16 @@ body {
      padding-top: 32px;
      padding-bottom: 32px;
  }
+
+ .nav-icon {
+    fill: var(--main-text-color);
+    margin-right: 10px;
+ }
+
+ .nav-icon:hover {
+     fill: var(--accent-color);
+ }
+ 
 
 /*-------------------------HERO------------------- */
 
@@ -531,4 +552,12 @@ margin-left: 30px;
 
 .exemple-card-text{
     padding: 20px 24px;
+}
+
+.exemple-item:hover {
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);;
+
 }
