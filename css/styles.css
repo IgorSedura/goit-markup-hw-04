@@ -488,7 +488,7 @@ margin-left: 30px;
 .footer-address{
     font-style: normal;
     color:var(--white-color);
-    display:inline-block;
+    
     
     
 }
@@ -531,8 +531,6 @@ margin-left: 30px;
 }
 
 .footer-soc {
-    display: inline-block;
-    vertical-align: top;
     margin-left: 70px;
 
 }
@@ -556,6 +554,10 @@ margin-left: 30px;
 .footer-soc-item:hover,
 .footer-soc-item:focus {
     background-color:var(--accent-color);
+}
+
+.footer .container {
+    display: flex;
 }
 
 /* ---------------------------PORTFOLIO---------------------------- */
